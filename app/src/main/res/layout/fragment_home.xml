@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12sp"
+            android:layout_marginLeft="18sp"
+            android:layout_marginRight="18sp"
+            android:layout_marginTop="20sp">
+
+        <EditText
+            android:drawableLeft="@drawable/icon_search"
+            android:layout_width="match_parent"
+            android:layout_height="45sp"
+            android:id="@+id/etSearch"
+            android:hint="Search Your Desired Foods"
+            android:padding="12sp"
+            android:inputType="text" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_mic"
+                android:id="@+id/ivMic"
+                android:layout_gravity="right"
+                android:padding="12sp"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enjoy The traditional Taste Of India!"
+            android:textSize="18sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginTop="8sp"
+            android:textStyle="italic"
+            android:fontFamily="@font/adamina"
+            android:textColor="@color/dark_brown"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:layout_margin="20sp">
+            <VideoView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/videoview"
+                android:layout_centerInParent="true"
+                android:layout_margin="8sp"
+                android:scaleX="1.5"
+                android:layout_gravity="center_horizontal"/>
+        </androidx.cardview.widget.CardView>
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="110sp"
+                android:layout_height="120sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:layout_marginLeft="20sp"
+                android:id="@+id/cvTea">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="90sp"
+                    android:src="@drawable/tea"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tea"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/brown"
+                    android:layout_gravity="center_horizontal|bottom"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="110sp"
+                android:layout_height="120sp"
+                android:layout_margin="20sp"
+                android:id="@+id/cvCoffee">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="90sp"
+                    android:src="@drawable/coffee"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Coffee"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/brown"
+                    android:layout_gravity="center_horizontal|bottom"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="110sp"
+                android:layout_height="120sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:id="@+id/cvJuice">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="90sp"
+                    android:src="@drawable/juices"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Juices"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/brown"
+                    android:layout_gravity="center_horizontal|bottom"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="110sp"
+                android:layout_height="120sp"
+                android:layout_margin="20sp"
+                android:id="@+id/cvBreakFast">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="90sp"
+                    android:src="@drawable/breakfast"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BreakFast"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/brown"
+                    android:layout_gravity="center_horizontal|bottom"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="90sp"
+                    android:layout_gravity="center_horizontal"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/breakfast" />
+            </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="110sp"
+            android:layout_height="120sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp"
+            android:id="@+id/cvLunch">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="90sp"
+                android:src="@drawable/lunch"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lunch"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/brown"
+                android:layout_gravity="center_horizontal|bottom"/>
+        </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="110sp"
+                android:layout_height="120sp"
+                android:layout_margin="20sp"
+                android:id="@+id/cvDinner">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="90sp"
+                    android:src="@drawable/dinner"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dinner"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/brown"
+                    android:layout_gravity="center_horizontal|bottom"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+</HorizontalScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Where Every Meal is a Celebration!.."
+            android:textSize="16sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginTop="8sp"
+            android:textStyle="italic"
+            android:fontFamily="@font/adamina"
+            android:textColor="@color/dark_brown"/>
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/ImageSlider"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_margin="20sp"
+                app:iss_corner_radius="50"
+                app:iss_auto_cycle="true"
+                app:iss_period="1000"
+                app:iss_delay="1000"
+                app:iss_selected_dot="@color/white"
+                app:iss_unselected_dot="@color/grey"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Khushi ka Mauka Mithe se sajta hai!.."
+            android:textSize="16sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginTop="8sp"
+            android:textStyle="italic"
+            android:fontFamily="@font/adamina"
+            android:textColor="@color/dark_brown"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/llDesserts">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sweets"
+                android:textSize="24sp"
+                android:layout_marginTop="8sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/adamina"
+                android:textColor="@color/brown"
+                android:layout_gravity="center_horizontal"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0sp"
+            android:layout_height="170sp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20sp"
+            android:id="@+id/cvRasgulla"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="140sp"
+                android:src="@drawable/rasgulla"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rasgulla"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/brown"
+                android:fontFamily="@font/adamina"
+                android:layout_gravity="bottom|center_horizontal" />
+        </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0sp"
+        android:layout_height="170sp"
+        android:layout_weight="1"
+        android:id="@+id/cvBarfi"
+        android:layout_margin="20sp"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="140sp"
+            android:src="@drawable/barfi"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Barfi"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/brown"
+            android:fontFamily="@font/adamina"
+            android:layout_gravity="bottom|center_horizontal"
+            />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="170sp"
+                android:layout_weight="1"
+                android:id="@+id/cvGulabjamun"
+                android:layout_marginLeft="20sp"
+                android:layout_gravity="center_horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="140sp"
+                    android:src="@drawable/gulabjamun"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gulab Jamun"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/brown"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="170sp"
+                android:layout_weight="1"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="20sp"
+                android:id="@+id/cvRasmalai"
+                android:layout_gravity="center_horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="140sp"
+                    android:src="@drawable/rasmalai"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rasmalai"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/brown"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_margin="20sp"
+            app:cardBackgroundColor="@color/brown">
+
+            <ImageView
+                android:layout_width="120sp"
+                android:layout_height="match_parent"
+                android:src="@drawable/panipuri"
+                android:scaleType="fitXY"
+                android:layout_margin="8sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30sp"
+                android:text="Pani Puri"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="180sp"
+                android:layout_gravity="center_vertical"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            app:cardBackgroundColor="@color/brown">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:text="Samosa "
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="60sp"
+                android:layout_gravity="center_vertical"/>
+        <ImageView
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/samosa"
+            android:layout_marginLeft="200sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_margin="20sp"
+            app:cardBackgroundColor="@color/brown">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:text="Masala Dosa"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginLeft="150sp"
+                android:layout_gravity="center_vertical"/>
+            <ImageView
+                android:layout_width="120sp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dosa" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="360sp"
+            android:layout_height="200sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Today's Special"
+                    android:textSize="24sp"
+                    android:layout_marginLeft="20sp"
+                    android:layout_margin="6sp"
+                    android:textAlignment="center"
+                    android:textStyle="bold|italic"
+                    android:fontFamily="@font/adamina"
+                    android:textColor="@color/brown"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/thali"
+                    android:scaleType="fitXY"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20sp">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="@color/brown">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="200sp"
+                    android:layout_height="300sp"
+                    app:cardCornerRadius="14sp"
+                    android:layout_margin="20sp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="170sp"
+                        android:src="@drawable/burger"
+                        android:scaleType="fitXY"
+                        android:layout_margin="8sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="190sp"
+                        android:fontFamily="@font/adamina"
+                        android:text="Burger"
+                        android:textAlignment="center"
+                        android:textColor="@color/brown"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="120/- Per"
+                        android:textSize="18sp"
+                        android:layout_marginTop="220sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/adamina"
+                        android:textColor="@color/brown"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40sp"
+                        android:text="Order Now"
+                        android:id="@+id/tvHomeOrderBurger"
+                        android:textSize="18sp"
+                        android:layout_marginTop="250sp"
+                        android:layout_marginRight="8sp"
+                        android:layout_marginLeft="8sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/adamina"
+                        android:background="@color/brown"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:padding="8sp"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="200sp"
+                    android:layout_height="300sp"
+                    app:cardCornerRadius="14sp"
+                    android:layout_margin="20sp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="170sp"
+                        android:src="@drawable/pavbhaji"
+                        android:scaleType="fitXY"
+                        android:layout_margin="10sp"/>
+                    <TextView
+                        android:layout_width="200sp"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="PavBhaji"
+                        android:textColor="@color/brown"
+                        android:fontFamily="@font/adamina"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginTop="190sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="80/- Plate"
+                        android:textSize="18sp"
+                        android:layout_marginTop="220sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/adamina"
+                        android:textColor="@color/brown"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40sp"
+                        android:text="Order Now"
+                        android:id="@+id/tvHomeOrderPavBhaji"
+                        android:textSize="18sp"
+                        android:layout_marginTop="250sp"
+                        android:layout_marginRight="8sp"
+                        android:layout_marginLeft="8sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/adamina"
+                        android:background="@color/brown"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:padding="8sp"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="200sp"
+                    android:layout_height="300sp"
+                    app:cardCornerRadius="14sp"
+                    android:layout_margin="20sp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="170sp"
+                        android:src="@drawable/cholebhature"
+                        android:scaleType="fitXY"
+                        android:layout_margin="10sp"/>
+                    <TextView
+                        android:layout_width="200sp"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Chole Bhature"
+                        android:textColor="@color/brown"
+                        android:fontFamily="@font/adamina"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginTop="190sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="100/- Plate"
+                        android:textSize="18sp"
+                        android:layout_marginTop="220sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/adamina"
+                        android:textColor="@color/brown"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40sp"
+                        android:text="Order Now"
+                        android:id="@+id/tvHomeOrderCholeBhature"
+                        android:textSize="18sp"
+                        android:layout_marginTop="250sp"
+                        android:layout_marginRight="8sp"
+                        android:layout_marginLeft="8sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/adamina"
+                        android:background="@color/brown"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:padding="8sp"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="200sp"
+                    android:layout_height="300sp"
+                    app:cardCornerRadius="14sp"
+                    android:layout_margin="20sp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="170sp"
+                        android:src="@drawable/sandwiches"
+                        android:scaleType="fitXY"
+                        android:layout_margin="10sp"/>
+                    <TextView
+                        android:layout_width="200sp"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Sandwiches"
+                        android:textColor="@color/brown"
+                        android:fontFamily="@font/adamina"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginTop="190sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="50/- Per"
+                        android:textSize="18sp"
+                        android:layout_marginTop="220sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/adamina"
+                        android:textColor="@color/brown"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40sp"
+                        android:text="Order Now"
+                        android:id="@+id/tvHomeOrderSandwich"
+                        android:textSize="18sp"
+                        android:layout_marginTop="250sp"
+                        android:layout_marginRight="8sp"
+                        android:layout_marginLeft="8sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/adamina"
+                        android:background="@color/brown"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:padding="8sp"/>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            </HorizontalScrollView>
+        </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:padding="12sp">
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tea"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="8sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Masala Tea"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="180sp"
+                    android:layout_marginTop="8sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/adamina"
+                    android:textColor="@color/brown"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20/- Per Cup"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="180sp"
+                    android:layout_marginTop="38sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/adamina"
+                    android:textColor="@color/brown"/>
+                <TextView
+                    android:layout_width="150sp"
+                    android:layout_height="40sp"
+                    android:text="Order Now"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="170sp"
+                    android:layout_marginTop="70sp"
+                    android:layout_marginRight="12sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/adamina"
+                    android:background="@color/brown"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:padding="8sp"/>
+            </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

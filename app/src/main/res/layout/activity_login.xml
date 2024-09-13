@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundimage">
+
+    <ImageView
+        android:layout_width="300sp"
+        android:layout_height="130sp"
+        android:id="@+id/ivlogo"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cvLogin"
+        app:cardCornerRadius="16sp"
+        app:cardElevation="8sp"
+        android:layout_margin="30sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/cvimage">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/adamina"
+                android:text="Welcome"
+                android:textColor="@color/yellow"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/adamina"
+                android:text="@string/Login"
+                android:textColor="@color/yellow"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8sp" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45sp"
+                android:id="@+id/etUsername"
+                android:hint="Username"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:fontFamily="@font/adamina"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/etbgshape"
+                android:layout_margin="12sp"
+                android:drawableLeft="@drawable/icon_user"
+                android:paddingLeft="8sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45sp"
+                android:id="@+id/etPassword"
+                android:hint="@string/password"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:fontFamily="@font/adamina"
+                android:inputType="textPassword"
+                android:background="@drawable/etbgshape"
+                android:drawableLeft="@drawable/icon_password"
+                android:layout_margin="12sp"
+                android:paddingLeft="8sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/white"
+                android:layout_marginRight="14sp"
+                android:layout_marginLeft="14sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30sp"
+                    android:id="@+id/tvForgetPassword"
+                    android:text="Forget password ?"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/adamina"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="14sp"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="30sp"
+                    android:id="@+id/cbShowHidePassword"
+                    android:text="@string/view_password"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="12sp"
+                    android:layout_marginRight="14sp"
+                    android:fontFamily="@font/adamina"
+                    android:textColor="@color/black" />
+
+
+            </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="45sp"
+                    android:id="@+id/btnSignin"
+                    android:layout_margin="14sp"
+                    android:background="@color/grey"
+                    android:text="Login"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/adamina"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvSignup"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="10sp"
+                    android:fontFamily="@font/adamina"
+                    android:text="Create New Account"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+
+
+

@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCategory"
+            android:text="Categories"
+            android:fontFamily="@font/adamina"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:layout_margin="20sp"
+            android:drawableLeft="@drawable/icon_backarrow"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0sp"
+            android:layout_height="100sp"
+            android:layout_weight="1"
+            android:layout_margin="20sp"
+            android:id="@+id/cvVegThali">
+
+            <ImageView
+                android:layout_width="150sp"
+                android:layout_height="80sp"
+                android:src="@drawable/thali"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Veg Thali"
+                android:textColor="@color/black"
+                android:fontFamily="@font/adamina"
+                android:layout_gravity="bottom|center_horizontal"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:id="@+id/cvnonVeg">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/nonveg"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Non-Veg"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal" />
+            </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0sp"
+            android:layout_height="100sp"
+            android:layout_weight="1"
+            android:layout_margin="20sp"
+            android:id="@+id/cvParatha">
+
+            <ImageView
+                android:layout_width="150sp"
+                android:layout_height="80sp"
+                android:src="@drawable/paratha"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paratha"
+                android:textColor="@color/black"
+                android:fontFamily="@font/adamina"
+                android:layout_gravity="bottom|center_horizontal" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:layout_margin="20sp"
+                android:id="@+id/cvVrat">
+
+                <ImageView
+                    android:layout_width="200sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/vrat"
+                    android:scaleX="1.2"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vrat(Upvas)"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:id="@+id/cvSalad">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/salad"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Salad"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:layout_margin="20sp"
+                android:id="@+id/cvSouthIndian">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/southindian"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="South Indian"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal" />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:layout_margin="20sp"
+                android:id="@+id/cvChineese">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/chinese"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chinesse"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:id="@+id/cvBreakFast">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="80sp"
+                    android:src="@drawable/indianfastfood"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Breakfast"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:layout_margin="20sp"
+                android:id="@+id/cvRaita">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="80sp"
+                    android:src="@drawable/raita"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Raita"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:layout_margin="20sp"
+                android:id="@+id/cvItalian">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/italianfood"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Itallian Food"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:id="@+id/cvStarter">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/soups"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Soups"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:layout_margin="20sp">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/starter"
+                    android:scaleX="1.3"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Starter"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:layout_margin="20sp"
+                android:id="@+id/cvSandwich">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/sandwiches"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sandwiches"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:id="@+id/cvSweets">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/indiandesserts"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:fontFamily="@font/adamina"
+                    android:text="Sweets"
+                    android:textColor="@color/black" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:layout_margin="20sp"
+                android:id="@+id/cvPakoda">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/pakoda"
+                    android:scaleX="1.8"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pakoda"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:id="@+id/cvRoti">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:layout_margin="20sp">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/roti"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rotis"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:id="@+id/cvDal">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/dal"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dal"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:layout_margin="20sp"
+                android:id="@+id/cvPaneer">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/paneer"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Paneer"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:layout_margin="20sp"
+                android:id="@+id/cvKofta">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/kofta"
+                    android:scaleX="1.4"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kofta"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:id="@+id/cvVeggies">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/vegitables"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Veggies"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:layout_margin="20sp"
+                android:id="@+id/cvRice">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/rice"
+                    android:scaleX="1.3"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rice"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:layout_margin="20sp"
+                android:id="@+id/cvBurger">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/burger"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Burgers"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:id="@+id/cvPizza">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/pizza"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pizza"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:layout_margin="20sp"
+                android:id="@+id/cvBiryani">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/biryani"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Biryani"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:layout_margin="20sp"
+                android:id="@+id/cvSamosa">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/samosa"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Samosa"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:id="@+id/cvKachori">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/kachori"
+                    android:scaleX="1.4"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kachori"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:layout_margin="20sp"
+                android:id="@+id/cvBhel">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/bhel"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bhel"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0sp"
+            android:layout_height="100sp"
+            android:layout_weight="1"
+            android:layout_margin="20sp"
+            android:id="@+id/cvBeverages">
+
+            <ImageView
+                android:layout_width="150sp"
+                android:layout_height="80sp"
+                android:src="@drawable/drinks"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beverages"
+                android:textColor="@color/black"
+                android:fontFamily="@font/adamina"
+                android:layout_gravity="bottom|center_horizontal" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp"
+            android:id="@+id/cvCakes">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:layout_height="80sp"
+                    android:src="@drawable/cakes"
+                    android:layout_gravity="center_horizontal"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cakes"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/adamina"
+                    android:layout_gravity="bottom|center_horizontal" />
+            </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0sp"
+            android:layout_height="100sp"
+            android:layout_weight="1"
+            android:layout_margin="20sp"
+            android:id="@+id/cvIcecream">
+
+            <ImageView
+                android:layout_width="150sp"
+                android:layout_height="80sp"
+                android:src="@drawable/icecream"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ice-cream"
+                android:textColor="@color/black"
+                android:fontFamily="@font/adamina"
+                android:layout_gravity="bottom|center_horizontal" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

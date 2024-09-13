@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactUsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="120sp"
+            android:src="@drawable/contactus" />
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/contactUsImageSlider"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            app:iss_corner_radius="50"
+            app:iss_auto_cycle="true"
+            app:iss_period="2000"
+            app:iss_delay="1000"
+            app:iss_no_dots="false"
+            android:layout_margin="20sp"
+            app:iss_selected_dot="@drawable/default_selected_dot"
+            app:iss_unselected_dot="@drawable/default_unselected_dot"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:text=" Feel Free to Reach Us "
+            android:textStyle="bold|italic"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:padding="2sp"
+            android:background="@color/dark_brown" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We are all ears for your f'eat'back and queries.
+Contact us now, and we will get back to you."
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:layout_marginLeft="50sp"
+            android:layout_marginRight="50sp"
+            android:layout_marginTop="20sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/adamina"
+            android:textColor="@color/brown"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:text=" Address "
+            android:textStyle="bold|italic"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:padding="2sp"
+            android:background="@color/dark_brown" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chappan Bhog Restaurant
+And Home Delivery "
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:layout_marginLeft="45sp"
+            android:layout_marginRight="45sp"
+            android:layout_marginTop="20sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/adamina"
+            android:textColor="@color/brown"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Gadge Nagar , Panchwati Chowk , Amravati"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:layout_marginLeft="50sp"
+            android:layout_marginRight="50sp"
+
+            android:textStyle="bold"
+            android:fontFamily="@font/adamina"
+            android:textColor="@color/brown"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:text=" Email-Id "
+            android:textStyle="bold|italic"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:padding="2sp"
+            android:background="@color/dark_brown" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="chappanbhogrestaurant@gmail.com"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:layout_marginTop="20sp"
+
+            android:textStyle="bold"
+            android:fontFamily="@font/adamina"
+            android:textColor="@color/brown"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/timebg"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="130sp"
+                android:layout_marginLeft="170sp"
+                android:layout_marginRight="20sp"
+                android:text=" Opening Hours "
+                android:textStyle="italic"
+                android:textSize="28sp"
+                android:textColor="@color/yellow"
+                android:fontFamily="cursive"
+                android:textAlignment="center"
+                android:padding="2sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="190sp"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="20sp"
+                android:text="Monday ------ 10:00 AM - 10:00 PM"
+                android:textStyle="italic"
+                android:textSize="14sp"
+                android:textColor="@color/yellow"
+                android:fontFamily="@font/adamina"
+                android:textAlignment="center"
+                android:padding="2sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="230sp"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="20sp"
+                android:text="Tueday ------- 10:00 AM - 10:00 PM"
+                android:textStyle="italic"
+                android:textSize="14sp"
+                android:textColor="@color/yellow"
+                android:fontFamily="@font/adamina"
+                android:textAlignment="center"
+                android:padding="2sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="270sp"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="20sp"
+                android:text="Wednesday --- 10:00 AM - 10:00 PM"
+                android:textStyle="italic"
+                android:textSize="14sp"
+                android:textColor="@color/yellow"
+                android:fontFamily="@font/adamina"
+                android:textAlignment="center"
+                android:padding="2sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="310sp"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="20sp"
+                android:text="Thursday ----- 10:00 AM - 10:00 PM"
+                android:textStyle="italic"
+                android:textSize="14sp"
+                android:textColor="@color/yellow"
+                android:fontFamily="@font/adamina"
+                android:textAlignment="center"
+                android:padding="2sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="350sp"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="20sp"
+                android:text="Friday -------- 10:00 AM - 10:00 PM"
+                android:textStyle="italic"
+                android:textSize="14sp"
+                android:textColor="@color/yellow"
+                android:fontFamily="@font/adamina"
+                android:textAlignment="center"
+                android:padding="2sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="390sp"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="20sp"
+                android:text="Saturday ------ 10:00 AM - 10:00 PM"
+                android:textStyle="italic"
+                android:textSize="14sp"
+                android:textColor="@color/yellow"
+                android:fontFamily="@font/adamina"
+                android:textAlignment="center"
+                android:padding="2sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="430sp"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="20sp"
+                android:text="Sunday -------- 11:00 AM - 12:00 PM"
+                android:textStyle="italic"
+                android:textSize="14sp"
+                android:textColor="@color/yellow"
+                android:fontFamily="@font/adamina"
+                android:textAlignment="center"
+                android:padding="2sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="460sp"
+                android:layout_marginLeft="50sp"
+                android:layout_marginRight="20sp"
+                android:text="Contact Us "
+                android:textStyle="bold|italic"
+                android:textSize="28sp"
+                android:textColor="@color/yellow"
+                android:fontFamily="cursive"
+                android:textAlignment="center"
+                android:padding="2sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="500sp"
+                android:layout_marginLeft="60sp"
+                android:layout_marginRight="20sp"
+                android:text="9511621051"
+                android:textStyle="italic"
+                android:textSize="16sp"
+                android:textColor="@color/yellow"
+                android:fontFamily="@font/adamina"
+                android:textAlignment="center"
+                android:padding="2sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30sp"
+            android:gravity="center"
+            android:background="@drawable/bgcontact">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="380sp"
+                android:orientation="vertical"
+                android:background="@drawable/bgcontact">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45sp"
+                    android:id="@+id/etUsername"
+                    android:hint=" UserName"
+                    android:fontFamily="@font/adamina"
+                    android:textSize="20sp"
+                    android:layout_marginTop="40sp"
+                    android:layout_marginLeft="35sp"
+                    android:layout_marginRight="35sp"
+                    android:textStyle="bold"
+                    android:inputType="text"
+                    android:drawableLeft="@drawable/icon_user"
+                    android:paddingLeft="8sp"/>
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45sp"
+                    android:id="@+id/etEmail"
+                    android:hint=" @string/email"
+                    android:fontFamily="@font/adamina"
+                    android:textSize="20sp"
+                    android:layout_marginTop="16sp"
+                    android:layout_marginRight="35sp"
+                    android:layout_marginLeft="35sp"
+                    android:textStyle="bold"
+                    android:inputType="textEmailAddress"
+                    android:drawableLeft="@drawable/icon_email"
+                    android:paddingLeft="8sp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45sp"
+                    android:id="@+id/etPhone"
+                    android:hint=" Contact number"
+                    android:fontFamily="@font/adamina"
+                    android:textSize="20sp"
+                    android:layout_marginTop="16sp"
+                    android:layout_marginRight="35sp"
+                    android:layout_marginLeft="35sp"
+                    android:textStyle="bold"
+                    android:inputType="number"
+                    android:drawableLeft="@drawable/icon_call"
+                    android:padding="8sp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45sp"
+                    android:id="@+id/etMessage"
+                    android:drawableLeft="@drawable/icon_message"
+                    android:hint=" Message (Optional)"
+                    android:fontFamily="@font/adamina"
+                    android:textSize="20sp"
+                    android:layout_marginTop="16sp"
+                    android:layout_marginRight="35sp"
+                    android:layout_marginLeft="35sp"
+                    android:textStyle="bold"
+                    android:inputType="textPassword"
+                    android:padding="8sp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="45sp"
+                    android:id="@+id/btnBookTable"
+                    android:background="@color/brown"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Book a Table"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/adamina"
+                    android:layout_marginTop="16sp"
+                    android:layout_marginRight="35sp"
+                    android:layout_marginLeft="35sp"
+                    android:layout_marginBottom="40sp"
+                    />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:id="@+id/contactUsLocation"
+            android:src="@drawable/location"
+            android:scaleType="fitXY"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="30sp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,22 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Restaurant_Management" parent="Theme.Material3.Light.NoActionBar"></style>
+    <style name="ShowActionBar" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!--primary brand color-->
+        <item name="colorPrimary">@color/brown</item>
+        <item name="colorPrimaryVariant">@color/brown</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="fontFamily">@font/adamina</item></style>
+
+    <style name="Theme.BottomNavigation" parent="Theme.Material3.Light">
+        <!--primary brand color-->
+        <item name="colorPrimary">@color/brown</item>
+        <item name="colorPrimaryVariant">@color/brown</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="fontFamily">@font/adamina</item></style>
+    <style name="Theme.Restaurant_Management" parent="Base.Theme.Restaurant_Management" />
+</resources>

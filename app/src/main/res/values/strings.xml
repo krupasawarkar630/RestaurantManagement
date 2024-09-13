@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Restaurant_Management</string>
+    <string name="title">CHAPPAN BHOG</string>
+    <string name="subtitle">The Traditional Taste Of India</string>
+    <string name="Login"> Login Here</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="view_password">View Password</string>
+    <string name="email">Email</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_my_location">MyLocationActivity</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_home_QRCode"
+        android:title="QRCode"
+        app:showAsAction="always"
+        android:icon="@drawable/icon_qrcode"/>
+
+    <item
+        android:id="@+id/menu_home_Location"
+        android:title="Location"
+        app:showAsAction="always"
+        android:icon="@drawable/icon_location"/>
+
+    <item
+        android:id="@+id/menu_home_Favorite"
+        android:title="Favorite"
+        app:showAsAction="always"
+        android:icon="@drawable/icon_favorite"/>
+
+    <item
+    app:showAsAction="always"
+    android:icon="@drawable/icon_more">
+
+    <menu>
+
+    <item
+        android:id="@+id/menu_home_Settings"
+        android:title="Settings"
+        android:icon="@drawable/icon_setting"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_home_ContactUs"
+        android:icon="@drawable/icon_call"
+        android:title="Contact Us"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_home_AboutUs"
+        android:icon="@drawable/icon_aboutus"
+        android:title="About Us"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_home_Logout"
+        android:icon="@drawable/icon_logout"
+        android:title="Log Out"
+        app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/menu_home_MyProfile"
+            android:icon="@drawable/icon_user"
+            android:title="My Profile"
+            app:showAsAction="never"/>
+</menu>
+</item>
+</menu>

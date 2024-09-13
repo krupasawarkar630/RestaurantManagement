@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".RateUsActivity"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="450sp"
+        app:cardElevation="14sp"
+        android:layout_marginTop="150sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:text=" Rate Us "
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_brown"
+            android:layout_marginTop="20sp"
+            android:fontFamily="@font/adamina"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_width="100sp"
+            android:layout_height="90sp"
+            android:id="@+id/ivRateTypeEmoji"
+            android:src="@drawable/icon_rateus"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="120sp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Would you like to rate us on Play Store ? "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@font/adamina"
+        android:layout_marginTop="50sp"
+        android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Your feedback helps us make your experience better "
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/adamina"
+                android:layout_margin="20sp"
+                android:textAlignment="center"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_gravity="center"
+
+        android:numStars="5"
+        android:rating="0"
+        android:stepSize="1"
+
+        android:progressBackgroundTint="@color/Light_brown"
+        android:progressTint="@color/dark_brown" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30sp"
+                android:id="@+id/tvRateType"
+                android:text="     "
+                android:fontFamily="@font/adamina"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginTop="20sp">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="0dp"
+                    android:layout_height="40sp"
+                    android:layout_weight="1"
+                    android:id="@+id/btnCancel"
+                    android:text="Cancel"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:background="@color/dark_brown"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginRight="20sp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="0dp"
+                    android:layout_height="40sp"
+                    android:layout_weight="1"
+                    android:id="@+id/btnSubmit"
+                    android:text="Submit"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:background="@color/dark_brown"
+                    android:layout_marginRight="20sp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

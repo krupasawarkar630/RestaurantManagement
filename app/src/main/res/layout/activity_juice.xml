@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keep calm and drink fresh juice..."
+            android:textSize="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginTop="20sp"
+            android:textStyle="bold|italic"
+            android:fontFamily="@font/adamina"
+            android:textColor="@color/dark_brown"/>
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/ImageSlider"
+                android:layout_width="match_parent"
+                android:layout_height="200sp"
+                android:layout_margin="20sp"
+                app:iss_corner_radius="50"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/brown"
+                android:layout_marginTop="20sp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100sp"
+                    android:layout_height="140sp"
+                    android:layout_margin="20sp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100sp"
+                        android:layout_height="100sp"
+                        app:cardCornerRadius="65sp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/orangejuice"
+                            android:scaleType="fitXY"
+                            android:layout_gravity="center_horizontal"/>
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Orange Juice"
+                        android:textStyle="bold"
+                        android:textSize="14sp"
+                        android:textColor="@color/brown"
+                        android:textAlignment="center"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:layout_marginBottom="8sp" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100sp"
+                    android:layout_height="140sp"
+                    android:layout_marginTop="20sp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100sp"
+                        android:layout_height="100sp"
+                        app:cardCornerRadius="65sp">
+                        <ImageView
+                            android:layout_width="90sp"
+                            android:layout_height="90sp"
+                            android:src="@drawable/berryjuice"
+                            android:scaleType="fitXY"
+                            android:layout_gravity="center_horizontal"/>
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Berry Juice"
+                        android:textStyle="bold"
+                        android:textSize="14sp"
+                        android:textColor="@color/brown"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:layout_marginBottom="8sp"
+                        android:textAlignment="center"/>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100sp"
+                    android:layout_height="140sp"
+                    android:layout_margin="20sp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100sp"
+                        android:layout_height="100sp"
+                        app:cardCornerRadius="65sp">
+                        <ImageView
+                            android:layout_width="90sp"
+                            android:layout_height="90sp"
+                            android:src="@drawable/pineapplejuice"
+                            android:scaleType="fitXY"
+                            android:layout_gravity="center_horizontal"/>
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PineApple"
+                        android:textStyle="bold"
+                        android:textSize="14sp"
+                        android:textColor="@color/brown"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:layout_marginBottom="8sp"
+                        android:textAlignment="center"/>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100sp"
+                    android:layout_height="140sp"
+                    android:layout_marginTop="20sp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100sp"
+                        android:layout_height="100sp"
+                        app:cardCornerRadius="65sp">
+                        <ImageView
+                            android:layout_width="90sp"
+                            android:layout_height="90sp"
+                            android:src="@drawable/cherryjuice"
+                            android:scaleType="fitXY"
+                            android:layout_gravity="center_horizontal"/>
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cherry Juice"
+                        android:textStyle="bold"
+                        android:textSize="14sp"
+                        android:textColor="@color/brown"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:layout_marginBottom="8sp"
+                        android:textAlignment="center"/>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100sp"
+                    android:layout_height="140sp"
+                    android:layout_margin="20sp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100sp"
+                        android:layout_height="100sp"
+                        app:cardCornerRadius="65sp">
+                        <ImageView
+                            android:layout_width="90sp"
+                            android:layout_height="90sp"
+                            android:src="@drawable/carrotjuice"
+                            android:scaleType="fitXY"
+                            android:layout_gravity="center_horizontal"/>
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Carrot Juice"
+                        android:textStyle="bold"
+                        android:textSize="14sp"
+                        android:textColor="@color/brown"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:layout_marginBottom="8sp"
+                        android:textAlignment="center"/>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="140sp"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginRight="20sp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100sp"
+                        android:layout_height="100sp"
+                        app:cardCornerRadius="65sp">
+                        <ImageView
+                            android:layout_width="90sp"
+                            android:layout_height="90sp"
+                            android:src="@drawable/beetrootjuice"
+                            android:scaleType="fitXY"
+                            android:layout_gravity="center_horizontal"/>
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BeetRoot Juice"
+                        android:textStyle="bold"
+                        android:textSize="14sp"
+                        android:textColor="@color/brown"
+                        android:textAlignment="center"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:layout_marginBottom="8sp" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_margin="20sp"
+            android:padding="12sp">
+            <ImageView
+                android:layout_width="120sp"
+                android:layout_height="match_parent"
+                android:src="@drawable/lemonjuice"
+                android:layout_gravity="left"
+                android:layout_marginLeft="8sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lemon Juice"
+                android:textSize="18sp"
+                android:layout_marginLeft="160sp"
+                android:layout_marginTop="8sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/adamina"
+                android:textAlignment="center"
+                android:textColor="@color/brown"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30/- Per Cup"
+                android:textSize="18sp"
+                android:layout_marginLeft="160sp"
+                android:layout_marginTop="38sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/adamina"
+                android:textColor="@color/brown"/>
+            <TextView
+                android:layout_width="150sp"
+                android:layout_height="40sp"
+                android:text="Order Now"
+                android:textSize="18sp"
+                android:layout_marginLeft="160sp"
+                android:layout_marginTop="70sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/adamina"
+                android:background="@color/brown"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:padding="8sp"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20sp">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/brown">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200sp"
+                        android:layout_height="300sp"
+                        app:cardCornerRadius="14sp"
+                        android:layout_margin="20sp">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="170sp"
+                            android:src="@drawable/applejuice"
+                            android:scaleType="fitXY"
+                            android:layout_margin="8sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="190sp"
+                            android:fontFamily="@font/adamina"
+                            android:text="Apple Juice"
+                            android:textAlignment="center"
+                            android:textColor="@color/brown"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="50/- Per cup"
+                            android:textSize="18sp"
+                            android:layout_marginTop="220sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/adamina"
+                            android:textColor="@color/brown"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40sp"
+                            android:text="Order Now"
+                            android:textSize="18sp"
+                            android:layout_marginTop="250sp"
+                            android:layout_marginRight="8sp"
+                            android:layout_marginLeft="8sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/adamina"
+                            android:background="@color/brown"
+                            android:textColor="@color/white"
+                            android:textAlignment="center"
+                            android:padding="8sp"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200sp"
+                        android:layout_height="300sp"
+                        app:cardCornerRadius="14sp"
+                        android:layout_margin="20sp">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="170sp"
+                            android:src="@drawable/sugarcanejuice"
+                            android:scaleType="fitXY"
+                            android:layout_margin="10sp"/>
+                        <TextView
+                            android:layout_width="200sp"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:text="SugarCane Juice"
+                            android:textColor="@color/brown"
+                            android:fontFamily="@font/adamina"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_marginTop="190sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="50/- Per Glass"
+                            android:textSize="18sp"
+                            android:layout_marginTop="220sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/adamina"
+                            android:textColor="@color/brown"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40sp"
+                            android:text="Order Now"
+                            android:textSize="18sp"
+                            android:layout_marginTop="250sp"
+                            android:layout_marginRight="8sp"
+                            android:layout_marginLeft="8sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/adamina"
+                            android:background="@color/brown"
+                            android:textColor="@color/white"
+                            android:textAlignment="center"
+                            android:padding="8sp"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200sp"
+                        android:layout_height="300sp"
+                        app:cardCornerRadius="14sp"
+                        android:layout_margin="20sp">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="170sp"
+                            android:src="@drawable/strawberryjuice"
+                            android:scaleType="fitXY"
+                            android:layout_margin="10sp"/>
+                        <TextView
+                            android:layout_width="200sp"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:text="Strawberry Juice"
+                            android:textColor="@color/brown"
+                            android:fontFamily="@font/adamina"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_marginTop="190sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="50/- Per Cup"
+                            android:textSize="18sp"
+                            android:layout_marginTop="220sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/adamina"
+                            android:textColor="@color/brown"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40sp"
+                            android:text="Order Now"
+                            android:textSize="18sp"
+                            android:layout_marginTop="250sp"
+                            android:layout_marginRight="8sp"
+                            android:layout_marginLeft="8sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/adamina"
+                            android:background="@color/brown"
+                            android:textColor="@color/white"
+                            android:textAlignment="center"
+                            android:padding="8sp"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200sp"
+                        android:layout_height="300sp"
+                        app:cardCornerRadius="14sp"
+                        android:layout_margin="20sp">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="170sp"
+                            android:src="@drawable/berryjuice"
+                            android:scaleType="fitXY"
+                            android:layout_margin="10sp"/>
+                        <TextView
+                            android:layout_width="200sp"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:text="Berry Juice"
+                            android:textColor="@color/brown"
+                            android:fontFamily="@font/adamina"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_marginTop="190sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="60/- Per"
+                            android:textSize="18sp"
+                            android:layout_marginTop="220sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/adamina"
+                            android:textColor="@color/brown"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40sp"
+                            android:text="Order Now"
+                            android:textSize="18sp"
+                            android:layout_marginTop="250sp"
+                            android:layout_marginRight="8sp"
+                            android:layout_marginLeft="8sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/adamina"
+                            android:background="@color/brown"
+                            android:textColor="@color/white"
+                            android:textAlignment="center"
+                            android:padding="8sp"/>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:padding="12sp">
+            <ImageView
+                android:layout_width="130sp"
+                android:layout_height="match_parent"
+                android:src="@drawable/orangejuice"
+                android:layout_gravity="left"
+                android:layout_marginLeft="8sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Orange Juice"
+                android:textSize="18sp"
+                android:layout_marginLeft="160sp"
+                android:layout_marginTop="8sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/adamina"
+                android:textColor="@color/brown"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="40/- Per Cup"
+                android:textSize="18sp"
+                android:layout_marginLeft="160sp"
+                android:layout_marginTop="38sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/adamina"
+                android:textColor="@color/brown"/>
+            <TextView
+                android:layout_width="150sp"
+                android:layout_height="40sp"
+                android:text="Order Now"
+                android:textSize="18sp"
+                android:layout_marginLeft="160sp"
+                android:layout_marginTop="70sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/adamina"
+                android:background="@color/brown"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:padding="8sp"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_margin="20sp"
+            android:padding="12sp">
+            <ImageView
+                android:layout_width="130sp"
+                android:layout_height="match_parent"
+                android:src="@drawable/cherryjuice"
+                android:layout_gravity="left"
+                android:layout_marginLeft="8sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cherry Juice"
+                android:textSize="18sp"
+                android:layout_marginLeft="160sp"
+                android:layout_marginTop="8sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/adamina"
+                android:textColor="@color/brown"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50/- Per Cup"
+                android:textSize="18sp"
+                android:layout_marginLeft="160sp"
+                android:layout_marginTop="38sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/adamina"
+                android:textColor="@color/brown"/>
+            <TextView
+                android:layout_width="150sp"
+                android:layout_height="40sp"
+                android:text="Order Now"
+                android:textSize="18sp"
+                android:layout_marginLeft="160sp"
+                android:layout_marginTop="70sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/adamina"
+                android:background="@color/brown"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:padding="8sp"/>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0sp"
+                    android:layout_height="170sp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="20sp"
+                    android:layout_gravity="center_horizontal">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140sp"
+                        android:src="@drawable/mangojuice"
+                        android:scaleType="fitXY"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mango Juice"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/brown"
+                        android:fontFamily="@font/adamina"
+                        android:layout_gravity="bottom|center_horizontal" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0sp"
+                    android:layout_height="170sp"
+                    android:layout_weight="1"
+                    android:layout_margin="20sp"
+                    android:layout_gravity="center_horizontal">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140sp"
+                        android:src="@drawable/pineapplejuice"
+                        android:scaleType="fitXY"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PineApple Juice"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/brown"
+                        android:fontFamily="@font/adamina"
+                        android:layout_gravity="bottom|center_horizontal" />
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0sp"
+                    android:layout_height="170sp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="20sp"
+                    android:layout_gravity="center_horizontal">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140sp"
+                        android:src="@drawable/awalajuice"
+                        android:scaleType="fitXY"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Awala Juice"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/brown"
+                        android:fontFamily="@font/adamina"
+                        android:layout_gravity="bottom|center_horizontal" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0sp"
+                    android:layout_height="170sp"
+                    android:layout_weight="1"
+                    android:layout_margin="20sp"
+                    android:layout_gravity="center_horizontal">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140sp"
+                        android:src="@drawable/kiwijuice"
+                        android:scaleType="fitXY"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kiwi Juice"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/brown"
+                        android:fontFamily="@font/adamina"
+                        android:layout_gravity="bottom|center_horizontal" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,1278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+       <androidx.cardview.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_margin="6sp"
+           app:cardBackgroundColor="@color/dark_brown">
+           
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="100sp"
+               android:src="@drawable/logo"/>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="80sp"
+               android:layout_marginTop="90sp"
+               android:src="@drawable/menu"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="200sp"
+    android:layout_marginTop="180sp"
+    app:cardBackgroundColor="@color/dark_brown">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginRight="20sp"
+               android:layout_marginLeft="20sp"
+               android:text="  Indian Fastfood  "
+               android:textStyle="bold|italic"
+               android:textSize="24sp"
+               android:textColor="@color/dark_brown"
+               android:padding="2sp"
+               android:background="@color/Light_brown"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="20sp"
+               android:layout_marginTop="50sp"
+               android:layout_marginLeft="20sp"
+               android:text="Pav Bhaji _ _ _ _50/-"
+               android:textStyle="italic"
+               android:textSize="16sp"
+               android:textColor="@color/yellow" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20sp"
+        android:layout_marginTop="75sp"
+        android:layout_marginLeft="20sp"
+        android:text="Cheese Pav Bhaji _ _ 70/-"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:textColor="@color/yellow" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20sp"
+        android:layout_marginTop="100sp"
+        android:layout_marginLeft="20sp"
+        android:text="Chole Bhatura_ _ _ _ 90/-"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:textColor="@color/yellow" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20sp"
+        android:layout_marginTop="130sp"
+        android:layout_marginLeft="20sp"
+        android:text="Paneer Paratha _ _ _ 60/-"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:textColor="@color/yellow" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20sp"
+        android:layout_marginTop="160sp"
+        android:layout_marginLeft="20sp"
+        android:text="Aloo Paratha _ _ _ 40/-"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:textColor="@color/yellow" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="120sp"
+            android:layout_height="120sp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="220sp"
+            app:cardCornerRadius="80sp">
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:src="@drawable/pavbhaji"
+                   android:scaleY="1.5" />
+           </androidx.cardview.widget.CardView>
+</androidx.cardview.widget.CardView>
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="200sp"
+                   app:cardBackgroundColor="@color/dark_brown">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginRight="20sp"
+                   android:layout_marginLeft="150sp"
+                   android:text="  South Indian  "
+                   android:textStyle="bold|italic"
+                   android:textSize="24sp"
+                   android:textColor="@color/dark_brown"
+                   android:padding="2sp"
+                   android:background="@color/Light_brown"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="50sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Masala Dosa_ _80/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="80sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Cheese Masala Dosa_120/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="110sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Plain Dosa _ _ 40/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="140sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Plain Uttapam_70/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="170sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Masala Uttapam_ 120/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <androidx.cardview.widget.CardView
+                       android:layout_width="120sp"
+                       android:layout_height="120sp"
+                       android:layout_gravity="center_vertical"
+                       android:layout_marginRight="220sp"
+                       android:layout_marginLeft="20sp"
+                       app:cardCornerRadius="80sp">
+                       <ImageView
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:src="@drawable/dosa"
+                           android:scaleY="1.5" />
+                   </androidx.cardview.widget.CardView>
+               </androidx.cardview.widget.CardView>
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="200sp"
+                   app:cardBackgroundColor="@color/dark_brown">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginRight="20sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="  Chinese Food  "
+                       android:textStyle="bold|italic"
+                       android:textSize="24sp"
+                       android:textColor="@color/dark_brown"
+                       android:padding="2sp"
+                       android:background="@color/Light_brown"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="50sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Dry Manchurian_ _70/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="75sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Paneer Manchurian_100/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="100sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Veg Noodles_ _ _90/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="130sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Manchurian Noodles_120/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="160sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Fried Rice_ _ _ _ _ _80/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <androidx.cardview.widget.CardView
+                       android:layout_width="120sp"
+                       android:layout_height="120sp"
+                       android:layout_gravity="center_vertical"
+                       android:layout_marginRight="20sp"
+                       android:layout_marginLeft="220sp"
+                       app:cardCornerRadius="80sp">
+                       <ImageView
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:src="@drawable/chinese"
+                           android:scaleY="1.5" />
+                   </androidx.cardview.widget.CardView>
+               </androidx.cardview.widget.CardView>
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="200sp"
+                   app:cardBackgroundColor="@color/dark_brown">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginRight="20sp"
+                       android:layout_marginLeft="180sp"
+                       android:text="  Burgers  "
+                       android:textStyle="bold|italic"
+                       android:textSize="24sp"
+                       android:textColor="@color/dark_brown"
+                       android:padding="2sp"
+                       android:background="@color/Light_brown"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="50sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Veggie Burger_ _80/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="80sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Cheese Burger_ _ 120/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="110sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Paneer Burger_ _ 100/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="140sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Schezwan Burger_ 120/-/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="170sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Non-Veg Burger _ 120/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <androidx.cardview.widget.CardView
+                       android:layout_width="120sp"
+                       android:layout_height="120sp"
+                       android:layout_gravity="center_vertical"
+                       android:layout_marginRight="220sp"
+                       android:layout_marginLeft="20sp"
+                       app:cardCornerRadius="80sp">
+                       <ImageView
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:src="@drawable/burger"
+                           android:scaleY="1.5" />
+                   </androidx.cardview.widget.CardView>
+               </androidx.cardview.widget.CardView>
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="200sp"
+                   app:cardBackgroundColor="@color/dark_brown">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginRight="20sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="  Sandwiches  "
+                       android:textStyle="bold|italic"
+                       android:textSize="24sp"
+                       android:textColor="@color/dark_brown"
+                       android:padding="2sp"
+                       android:background="@color/Light_brown"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="50sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Plain Veggie_ _80/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="75sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Cheese Sandwich_ _90/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="100sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Grilled Sandwich_ _ 120/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="130sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Paneer Sandwich_ _100/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="160sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Plain Sandwich_ _50/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+
+                   <androidx.cardview.widget.CardView
+                       android:layout_width="120sp"
+                       android:layout_height="120sp"
+                       android:layout_gravity="center_vertical"
+                       android:layout_marginRight="20sp"
+                       android:layout_marginLeft="220sp"
+                       app:cardCornerRadius="80sp">
+                       <ImageView
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:src="@drawable/sandwiches"
+                           android:scaleY="1.5" />
+                   </androidx.cardview.widget.CardView>
+               </androidx.cardview.widget.CardView>
+
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="200sp"
+                   app:cardBackgroundColor="@color/dark_brown">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginRight="20sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="  Italian  "
+                       android:textStyle="bold|italic"
+                       android:textSize="24sp"
+                       android:textColor="@color/dark_brown"
+                       android:padding="2sp"
+                       android:background="@color/Light_brown"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="50sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Cheese Pizza _ _ 180/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="80sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Schezwan Pizza_ _ 220/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="110sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Garlic Bread_ _ _ 180/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="140sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="White Sauce Pasta_ 190/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="170sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Jain Pizza_ _ _210/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <androidx.cardview.widget.CardView
+                       android:layout_width="120sp"
+                       android:layout_height="120sp"
+                       android:layout_gravity="center_vertical"
+                       android:layout_marginRight="220sp"
+                       android:layout_marginLeft="20sp"
+                       app:cardCornerRadius="80sp">
+                       <ImageView
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:src="@drawable/pizza"
+                           android:scaleY="1.9" />
+                   </androidx.cardview.widget.CardView>
+               </androidx.cardview.widget.CardView>
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="200sp"
+                   app:cardBackgroundColor="@color/dark_brown">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginRight="20sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="  Vrat(Upvas)  "
+                       android:textStyle="bold|italic"
+                       android:textSize="24sp"
+                       android:textColor="@color/dark_brown"
+                       android:padding="2sp"
+                       android:background="@color/Light_brown"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="50sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Sabudana Wada_ _80/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="75sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Sabudana Khichadi_ _100/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="100sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Plain French Fries_ _ 120/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="130sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Special Vrat Thali_ _180/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="160sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Kheer_ _ _50/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+
+                   <androidx.cardview.widget.CardView
+                       android:layout_width="120sp"
+                       android:layout_height="120sp"
+                       android:layout_gravity="center_vertical"
+                       android:layout_marginRight="20sp"
+                       android:layout_marginLeft="220sp"
+                       app:cardCornerRadius="80sp">
+                       <ImageView
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:src="@drawable/vrat"
+                           android:scaleY="1.3" />
+                   </androidx.cardview.widget.CardView>
+               </androidx.cardview.widget.CardView>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textSize="35sp"
+                   android:text="  Main Course  "
+                   android:textStyle="bold|italic"
+                   android:textAlignment="center"
+                   android:textColor="@color/dark_brown"
+                   android:padding="2sp"
+                   android:background="@color/Light_brown"/>
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="200sp"
+                   android:layout_marginTop="20sp"
+                   app:cardBackgroundColor="@color/dark_brown">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginRight="20sp"
+                       android:layout_marginLeft="160sp"
+                       android:text=" Rotis "
+                       android:textStyle="bold|italic"
+                       android:textSize="24sp"
+                       android:textColor="@color/dark_brown"
+                       android:padding="2sp"
+                       android:background="@color/Light_brown"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="50sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Chappati_ _ 15/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="80sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Butter Nan_ _ 50/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="110sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Bajra Roti_ _ 40/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="140sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Tanduri Roti_ _30/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="170sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Jowar Roti_ _50/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <androidx.cardview.widget.CardView
+                       android:layout_width="120sp"
+                       android:layout_height="120sp"
+                       android:layout_gravity="center_vertical"
+                       android:layout_marginRight="220sp"
+                       android:layout_marginLeft="20sp"
+                       app:cardCornerRadius="80sp">
+                       <ImageView
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:src="@drawable/roti"
+                           android:scaleY="1" />
+                   </androidx.cardview.widget.CardView>
+               </androidx.cardview.widget.CardView>
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="200sp"
+                   app:cardBackgroundColor="@color/dark_brown">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginRight="20sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="  Rice  "
+                       android:textStyle="bold|italic"
+                       android:textSize="24sp"
+                       android:textColor="@color/dark_brown"
+                       android:padding="2sp"
+                       android:background="@color/Light_brown"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="50sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Plain Rice_ _80/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="75sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Jeera Rice_ _90/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="100sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Biryani_ _200/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="130sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Dal Khichadi_ _ 120/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="160sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Veg Pulav_ _ _160/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+
+                   <androidx.cardview.widget.CardView
+                       android:layout_width="120sp"
+                       android:layout_height="120sp"
+                       android:layout_gravity="center_vertical"
+                       android:layout_marginRight="20sp"
+                       android:layout_marginLeft="220sp"
+                       app:cardCornerRadius="80sp">
+                       <ImageView
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:src="@drawable/rice"
+                           android:scaleY="1" />
+                   </androidx.cardview.widget.CardView>
+               </androidx.cardview.widget.CardView>
+
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="200sp"
+                   android:layout_marginTop="20sp"
+                   app:cardBackgroundColor="@color/dark_brown">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginRight="20sp"
+                       android:layout_marginLeft="160sp"
+                       android:text=" Dal "
+                       android:textStyle="bold|italic"
+                       android:textSize="24sp"
+                       android:textColor="@color/dark_brown"
+                       android:padding="2sp"
+                       android:background="@color/Light_brown"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="50sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Dal Fry_ _ _130/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="80sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Dal Makhani_ _ _180/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="110sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Dal Tadka_ _ _ 150/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="140sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Jeera Dal_ _ _120/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="170sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Dal Kolhapuri_ _ _150/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <androidx.cardview.widget.CardView
+                       android:layout_width="120sp"
+                       android:layout_height="120sp"
+                       android:layout_gravity="center_vertical"
+                       android:layout_marginRight="220sp"
+                       android:layout_marginLeft="20sp"
+                       app:cardCornerRadius="80sp">
+                       <ImageView
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:src="@drawable/roti"
+                           android:scaleY="1" />
+                   </androidx.cardview.widget.CardView>
+               </androidx.cardview.widget.CardView>
+
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="200sp"
+                   app:cardBackgroundColor="@color/dark_brown">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginRight="20sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="  Vegetables  "
+                       android:textStyle="bold|italic"
+                       android:textSize="24sp"
+                       android:textColor="@color/dark_brown"
+                       android:padding="2sp"
+                       android:background="@color/Light_brown"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="50sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Aloo Gobi_ _80/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="75sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Jhunka_ _90/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="100sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Veg Kolhapuri_ _200/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="130sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Kadi Pakoda_ _ 150/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="160sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Rani Palak_ _ _160/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+
+                   <androidx.cardview.widget.CardView
+                       android:layout_width="120sp"
+                       android:layout_height="120sp"
+                       android:layout_gravity="center_vertical"
+                       android:layout_marginRight="20sp"
+                       android:layout_marginLeft="220sp"
+                       app:cardCornerRadius="80sp">
+                       <ImageView
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:src="@drawable/vegitables"
+                           android:scaleY="1" />
+                   </androidx.cardview.widget.CardView>
+               </androidx.cardview.widget.CardView>
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="200sp"
+                   app:cardBackgroundColor="@color/dark_brown">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginRight="20sp"
+                       android:layout_marginLeft="150sp"
+                       android:text="  Kofta  "
+                       android:textStyle="bold|italic"
+                       android:textSize="24sp"
+                       android:textColor="@color/dark_brown"
+                       android:padding="2sp"
+                       android:background="@color/Light_brown"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="50sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Veg Kofta_ _200/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="80sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Malai Kofta_ _ _210/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="110sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Paneer Kofta_ _ _ 250/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="140sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Kofta Curry_ _ _ _210/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="170sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Nargisi Kofta_ _ _210/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <androidx.cardview.widget.CardView
+                       android:layout_width="120sp"
+                       android:layout_height="120sp"
+                       android:layout_gravity="center_vertical"
+                       android:layout_marginRight="220sp"
+                       android:layout_marginLeft="20sp"
+                       app:cardCornerRadius="80sp">
+                       <ImageView
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:src="@drawable/kofta"
+                           android:scaleY="1.5" />
+                   </androidx.cardview.widget.CardView>
+               </androidx.cardview.widget.CardView>
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="200sp"
+                   app:cardBackgroundColor="@color/dark_brown">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginRight="20sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="  Paneer  "
+                       android:textStyle="bold|italic"
+                       android:textSize="24sp"
+                       android:textColor="@color/dark_brown"
+                       android:padding="2sp"
+                       android:background="@color/Light_brown"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="50sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Matar Paneer_ _180/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="75sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Shahi Paneer_ _ 220/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="100sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Paneer Kadhai_ _ 210/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="130sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Paneer Bhurji_ _ _200/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="160sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Paneer Butter Masala_ 180/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+
+                   <androidx.cardview.widget.CardView
+                       android:layout_width="120sp"
+                       android:layout_height="120sp"
+                       android:layout_gravity="center_vertical"
+                       android:layout_marginRight="20sp"
+                       android:layout_marginLeft="220sp"
+                       app:cardCornerRadius="80sp">
+                       <ImageView
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:src="@drawable/paneer"
+                           android:scaleY="1" />
+                   </androidx.cardview.widget.CardView>
+               </androidx.cardview.widget.CardView>
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="200sp"
+                   app:cardBackgroundColor="@color/dark_brown">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginRight="20sp"
+                       android:layout_marginLeft="150sp"
+                       android:text="  Special Thali  "
+                       android:textStyle="bold|italic"
+                       android:textSize="24sp"
+                       android:textColor="@color/dark_brown"
+                       android:padding="2sp"
+                       android:background="@color/Light_brown"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="50sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Shahi Thali_ _ 260/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="80sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Punjabi Thali_ _ _200/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="110sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Maharaja Thali_ _ 250/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="140sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Chineese Thali_ _ 200/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="170sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="South Indian Thali_ _200/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <androidx.cardview.widget.CardView
+                       android:layout_width="120sp"
+                       android:layout_height="120sp"
+                       android:layout_gravity="center_vertical"
+                       android:layout_marginRight="220sp"
+                       android:layout_marginLeft="20sp"
+                       app:cardCornerRadius="80sp">
+                       <ImageView
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:src="@drawable/thali"
+                           android:scaleY="1.5" />
+                   </androidx.cardview.widget.CardView>
+               </androidx.cardview.widget.CardView>
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="200sp"
+                   app:cardBackgroundColor="@color/dark_brown">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginRight="20sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="  Desserts  "
+                       android:textStyle="bold|italic"
+                       android:textSize="24sp"
+                       android:textColor="@color/dark_brown"
+                       android:padding="2sp"
+                       android:background="@color/Light_brown"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="50sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Rasgulla_ _ 40/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="75sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Rasmalai_ _ _ 100/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="100sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="ShriKhand_ _ _50/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="130sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Jalebi_ _ _40/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="160sp"
+                       android:layout_marginLeft="20sp"
+                       android:text="Rabadi_ _ _ _ _140/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+
+                   <androidx.cardview.widget.CardView
+                       android:layout_width="120sp"
+                       android:layout_height="120sp"
+                       android:layout_gravity="center_vertical"
+                       android:layout_marginRight="20sp"
+                       android:layout_marginLeft="220sp"
+                       app:cardCornerRadius="80sp">
+                       <ImageView
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:src="@drawable/gulabjamun"
+                           android:scaleY="1" />
+                   </androidx.cardview.widget.CardView>
+               </androidx.cardview.widget.CardView>
+
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="200sp"
+                   app:cardBackgroundColor="@color/dark_brown">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginRight="20sp"
+                       android:layout_marginLeft="150sp"
+                       android:text="  Beverages  "
+                       android:textStyle="bold|italic"
+                       android:textSize="24sp"
+                       android:textColor="@color/dark_brown"
+                       android:padding="2sp"
+                       android:background="@color/Light_brown"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="50sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Choclate Shake_ _ _100/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="80sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Mineral Water_ _ 20/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="110sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Cold Drink_ _ _40/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="140sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Cold Coffee_ _ _50/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="20sp"
+                       android:layout_marginTop="170sp"
+                       android:layout_marginLeft="160sp"
+                       android:text="Mango Juice_ _ _ _ 30/-"
+                       android:textStyle="italic"
+                       android:textSize="16sp"
+                       android:textColor="@color/yellow" />
+                   <androidx.cardview.widget.CardView
+                       android:layout_width="120sp"
+                       android:layout_height="120sp"
+                       android:layout_gravity="center_vertical"
+                       android:layout_marginRight="220sp"
+                       android:layout_marginLeft="20sp"
+                       app:cardCornerRadius="80sp">
+                       <ImageView
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:src="@drawable/coffeeshake"
+                           android:scaleY="1.5" />
+                   </androidx.cardview.widget.CardView>
+               </androidx.cardview.widget.CardView>
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="130sp"
+                   android:layout_marginTop="30sp"
+                   android:src="@drawable/namelogo"/>
+           </LinearLayout>
+       </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>
