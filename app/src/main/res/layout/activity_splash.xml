@@ -17,13 +17,6 @@
         android:layout_height="150dp"
         android:src="@drawable/logo"/>
 
-
-    <ImageView
-        android:id="@+id/ivMainLogo1"
-        android:layout_width="350dp"
-        android:layout_height="150dp"
-        android:src="@drawable/logo"/>
-
     <TextView
         android:id="@+id/tvMainTitle"
         android:layout_width="wrap_content"
@@ -53,18 +46,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/tvMainsubtitle1"
         android:text="Sample 1"
-        android:textColor="@color/yellow"
-        android:textSize="16sp"
-        android:fontFamily="@font/adamina"
-        android:textStyle="italic|bold"
-        android:layout_gravity="center"
-        android:layout_marginTop="8sp"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tvMainsubtitle2"
-        android:text="Sample 2"
         android:textColor="@color/yellow"
         android:textSize="16sp"
         android:fontFamily="@font/adamina"
