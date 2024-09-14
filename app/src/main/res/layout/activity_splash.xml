@@ -17,12 +17,6 @@
         android:layout_height="150dp"
         android:src="@drawable/logo"/>
 
-    <ImageView
-        android:id="@+id/ivMainLogo1"
-        android:layout_width="350dp"
-        android:layout_height="150dp"
-        android:src="@drawable/logo"/>
-
     <TextView
         android:id="@+id/tvMainTitle"
         android:layout_width="wrap_content"
